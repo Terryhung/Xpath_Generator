@@ -6,12 +6,17 @@ Generate Xpath list after giving tag, attribute and attribute' value.
 * [requests](http://docs.python-requests.org/en/master/)
 * [bs4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
-Install them with `pip install -r requirements.txt`
+## Install
+
+* With pip: `pip install xpath_generator`
+* With git: 
+  1. `git clone https://github.com/Terryhung/Xpath_Generator.git`
+  2. `pip install -r requirements.txt`
 
 ## Usage
 
 ```python
-from xpath_generator import XpathGEN
+from xpath_generator.xpath_generator import XpathGEN
 
 url = 'https://guides.github.com/activities/hello-world/'
 
