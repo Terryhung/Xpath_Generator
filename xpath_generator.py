@@ -48,7 +48,7 @@ class XpathGEN:
             self.p_layers -= 1
             self.get_tags_parents(_tags)
 
-    def get_xpath(self):
+    def get_xpaths(self):
         first_tags = self.get_tags()
         if first_tags is None:
             return {'xpath': ['Did not match the conditions!']}
