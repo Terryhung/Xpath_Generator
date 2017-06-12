@@ -34,7 +34,7 @@ headers = {
 
 # default parent_layers is 5
 xpath_gen = XpathGEN(url, element, parent_layers=3, headers=headers)
-xpaths = xpath_gen.get_xpath()
+xpaths = xpath_gen.get_xpaths()
 
 ```
 Return Value:
