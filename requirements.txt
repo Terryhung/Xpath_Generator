@@ -1,4 +1,4 @@
 --index https://pypi.python.org/simple/
 
-requests==2.20.0
+requests==2.31.0
 bs4==0.0.1
